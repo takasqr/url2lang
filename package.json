@@ -1,9 +1,16 @@
 {
   "name": "url2lang",
   "private": false,
-  "version": "0.1.6",
+  "version": "0.1.7",
   "type": "module",
   "files": ["dist"],
+  "license": "MIT",
+  "keywords": ["url2lang", "url", "lang"],
+  "description": "url2lang returns the language code from the language information contained in the url.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takasqr/url2lang"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
